@@ -136,7 +136,7 @@ def main():
     print_table_and_formula(amplitudes, phases, Tc)
     plot_amplitudes_and_phases(amplitudes, phases)
     plot_signal(amplitudes, phases, Tc)
-    save_coefficients(coefficients, "../Лабораторна 3/coefficients.json")
+    save_coefficients(coefficients, "../Lab 3/coefficients.json")
 
 
 if __name__ == "__main__":
